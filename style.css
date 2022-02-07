@@ -1,1 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h1-judul {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 46px;
+  margin-bottom: 16px;
+}
+
+/* body {
+  height: 8444px;
+} */
+
+.silde-satu {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  top: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 100;
+  margin-top: 800px;
+}
+
+.h1-info {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.info {
+  background-color: #e5e5e5;
+  margin-top: -1px;
+}
+
+.acara {
+  background-color: white;
+  margin-top: -1px;
+}
+
+.galery {
+  background-color: white;
+  margin-top: -1px;
+}
+
+.kontak {
+  background-color: #e5e5e5;
+  margin-top: -1px;
+}
+
+.card-radius {
+  border-radius: 20px;
+}
+
+.card-container {
+  margin-top: 64px;
+}
+
+.img-content {
+  border-radius: 20px;
+  width: 80%;
+  display: block;
+  margin: 40px auto 0;
+}
+
+.slide .carousel-item {
+  height: 100vh;
+}
+
+.slide-dua {
+  margin-top: -1px;
+}
+
+.slide-dua .carousel-item {
+  height: 200px;
+}
+
+.waktu {
+  background-color: white;
+  height: 264px;
+}
+
+.kontak-container {
+  background-color: white;
+}
+
+.footer {
+  background-color: white;
+  margin-top: -1px;
+  height: 60px;
+}
+
+@media (max-width: 1440px) {
+  .content {
+    margin-top: 550px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content {
+    margin-top: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    margin-top: 300px;
+  }
+}
+
+@media (max-width: 425px) {
+  .content {
+    margin-top: 170px;
+  }
+
+  .card-radius {
+    border-radius: 10px;
+  }
+
+  .form-container {
+    margin-top: 36px;
+  }
+
+  .card-2 {
+    margin-top: 36px;
+  }
+}
+
+@media (max-width: 375px) {
+  .content {
+    margin-top: 150px;
+  }
+}
 
